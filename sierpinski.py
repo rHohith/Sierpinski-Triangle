@@ -16,7 +16,7 @@ def getMid(p1,p2):
 
 def sierpinski(points,degree,myTurtle):
     colormap = ['aqua','aquamarine', 'lavender', 'lightskyblue',
-                'llightskyblue', 'slateblue']
+                'lightskyblue', 'slateblue']
     drawTriangle(points,colormap[degree],myTurtle)
     if degree > 0:
         sierpinski([points[0],
